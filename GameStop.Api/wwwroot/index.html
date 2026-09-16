@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameStop & CO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header-container">
+        <div class="logo">Game<span>Stop</span></div>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Catalogo videogiochi</h1>
+    <p>Gestisci i giochi disponibili nello store</p>
+</section>
+
+<section class="form-section">
+    <h2 id="formTitle">Aggiungi un gioco</h2>
+    <div class="form">
+        <input id="gameId" type="hidden">
+        <input id="name" placeholder="Nome">
+        <input id="publisher" placeholder="Publisher">
+        <input id="developer" placeholder="Developer">
+        <input id="copiesCount" placeholder="Copie disponibili">
+        <input id="price" placeholder="Prezzo">
+        <button onclick="save()">Salva</button>
+    </div>
+</section>
+
+<section class="catalogo">
+    <div class="catalogo-grid" id="catalogoGrid"></div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2026 GameStop Clone - Progetto didattico</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
