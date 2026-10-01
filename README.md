@@ -1,5 +1,7 @@
 # GameStop
 
+[![CI](https://github.com/JakiWZ/GameStop/actions/workflows/ci.yml/badge.svg)](https://github.com/JakiWZ/GameStop/actions/workflows/ci.yml)
+
 A simple video game catalog REST API built with ASP.NET Core and Entity Framework Core. This was an early learning project focused on getting the fundamentals right: a clean layered structure, a repository abstraction over EF Core, and a working CRUD API — the stepping stone before [SneakerStore](https://github.com/JakiWZ/SneakerStore), a more complete e-commerce API with authentication and authorization.
 
 ## Features
